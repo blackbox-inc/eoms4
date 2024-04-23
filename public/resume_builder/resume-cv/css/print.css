@@ -1,0 +1,22 @@
+@media print(max-width: 991px) {
+
+	/* =============== LAYOUT =============== */
+	/*#nino-leftSide,
+	#nino-rightSide {
+		width: 100%;
+	}*/
+	/* =============== LEFT SIDE =============== */
+	#sa {
+		background-color: #010220;
+	}
+	header,
+	#nino-leftSide section {
+		margin: 0;
+		border: 1px solid rgba(255, 255, 255, 0.25);
+		border-width: 0 1px 1px 0;
+
+	}
+	#nino-leftSide section {
+		padding: 35px 30px;
+	}
+}

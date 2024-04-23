@@ -1,0 +1,650 @@
+/**
+* @author    Ninodezign.com http://www.ninodezign.com
+* @copyright Copyright (C) 2016 Ninodezign.com. All rights reserved.
+* @license   Ninodezign.com Proprietary License
+*/
+/* ============================== DEFAULT HTML ============================== */
+@import 'https://fonts.googleapis.com/css?family=Roboto+Slab:300,400,700';
+@import 'https://fonts.googleapis.com/css?family=Mr+De+Haviland';
+html, body {
+	margin: 0;
+	padding: 0;
+}
+body {
+	color: #263238;
+	font-size: 13px;
+	font-weight: 300;
+	position: relative;
+	font-family: 'Roboto Slab', serif;
+}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section,main { 
+    display: block;
+}
+hr {
+	border-left: none;
+	border-right: none;
+    border-top: 1px solid #E5E5E5;
+    color: #F4F4F4;
+    margin: 20px 0;
+    padding: 0;
+}
+/* =============== DEFAULT HTML - LINK STYLES =============== */
+a {
+	text-decoration: none;
+	outline: none;
+	color: #263238;
+	-webkit-transition: all .3s ease-in-out;
+	   -moz-transition: all .3s ease-in-out;
+		 -o-transition: all .3s ease-in-out;
+		-ms-transition: all .3s ease-in-out;
+			transition: all .3s ease-in-out;
+}
+a:hover {
+	color: #666;
+	text-decoration: none;
+}
+a:active {
+	text-decoration: none;
+}
+a:focus {
+	outline: none;
+}
+a img {
+	border: none;
+}
+a[class*="glyphicon-"] {
+	text-decoration: none;
+}
+/* =============== DEFAULT HTML - HEADING STYLES =============== */
+h1, h2, h3, h4, h5, h6 {
+	margin: 5px 0 10px;
+	text-transform: uppercase;
+	font-weight: 400;
+	line-height: 1.4;
+}
+/* =============== DEFAULT HTML - LIST STYLES =============== */
+ul, ul li,
+ol, ol li,
+p, form, input {
+	margin: 0;
+	padding: 0;
+}
+p {
+	margin-bottom: 10px;
+}
+ul, ul li {
+	/* list-style: none; */
+}
+/* =============== DEFAULT HTML - IMAGES STYLES =============== */
+img {
+	border: none;
+	max-width: 100%;
+}
+img.image-left {
+	float: left;
+	margin-right: 5px;
+}
+img.img-full-width {
+	width: 100%;
+}
+/* =============== PREDEFINED CONTENT ALIGN =============== */
+.margin-left {
+	margin-left: 1em !important;
+	margin-right: 0;
+}
+.margin-right {
+	margin-left: 0;
+	margin-right: 1em !important;
+}
+/* ============================== LAYOUT ============================== */
+/* =============== LAYOUT - GENERAL LAYOUT =============== */
+[layout="row"] {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flexbox;
+	display: flex;
+}
+.fsr {
+	-webkit-flex-shrink: 0;
+	flex-shrink: 0;
+}
+.fg {
+	-webkit-flex-grow: 1;
+	flex-grow: 1;
+}
+.fw {
+	flex-wrap: wrap;
+}
+.verticalCenter {
+	-ms-flex-align: center;
+	-webkit-align-items: center;
+	-webkit-box-align: center;
+	align-items: center;
+}
+/* =============== NAVIGATION =============== */
+#mainMenu {
+	margin: 15px 0;
+}
+#mainMenu ul {
+	text-align: right;
+}
+#mainMenu ul li {
+	display: inline-block;
+}
+#mainMenu ul li a {
+	display: block;
+	padding: 10px;
+	text-transform: uppercase;
+	font-weight: 500;
+}
+#mainMenu ul li .nino-icon {
+	font-size: 18px;
+	position: relative;
+	top: 2px;
+	margin-right: 5px;
+}
+/* =============== LAYOUT - HEADER AREA =============== */
+header {
+	text-align: center;
+	padding: 35px 20px;
+	margin-bottom: 35px;
+	background: #010220;
+}
+header .avatar {
+	width: 150px;
+	border-radius: 50%;
+	background: #37474f;
+	padding: 4px;
+	margin-bottom: 10px;
+}
+header .name {
+	font-size: 20px;
+	margin-bottom: 8px;
+}
+header .regency {
+	font-size: 14px;
+	text-transform: capitalize;
+}
+/* =============== LAYOUT - CONTENT AREA =============== */
+#nino-cvWrap {
+	max-width: 960px;
+	margin: 0 auto;
+	background: #fff;
+}
+#nino-leftSide {
+	width: 310px;
+	background: #644709;
+	color: #fdfdfe;
+}
+#nino-rightSide {
+	border: 1px solid #d2d2d2;
+	width: calc(100% - 310px);
+}
+main {
+	padding: 30px 40px;
+}
+section {
+	margin-bottom: 50px;
+}
+section:last-child {
+	margin-bottom: 0;
+}
+section .nino-sectionHeading {
+	font-size: 16px;
+	font-weight: 700;
+}
+section .nino-sectionHeading .nino-icon {
+	background: #644709;
+	padding: 8px;
+	border-radius: 50%;
+	margin-right: 10px;
+	font-size: 20px;
+	color: #fff;
+}
+section .nino-sectionHeading1 {
+	font-size: 16px;
+	font-weight: 700;
+}
+section .nino-sectionHeading1 .nino-icon1 {
+	background: #010220;
+	padding: 8px;
+	border-radius: 50%;
+	margin-right: 10px;
+	font-size: 20px;
+	color: #fff;
+}
+section .nino-sectionContent > .inner {
+	margin-left: 55px;
+}
+#nino-mainContent section .nino-sectionHeading {
+	font-size: 24px;
+}
+#nino-mainContent section .nino-sectionHeading .nino-icon {
+	font-size: 26px;
+}
+article {
+	margin: 30px 0;
+}
+article:last-child {
+	margin-bottom: 0;
+}
+article .nino-articleThumb {
+	margin-bottom: 15px;
+	text-align: center;
+}
+article .nino-articleTitle {
+	font-size: 20px;
+	margin: 0 0 5px;
+}
+article .nino-articleMeta {
+	color: #90a4ae;
+	margin-bottom: 10px;
+	font-weight: 400;
+}
+article .nino-articleMeta span {
+	display: inline-block;
+	margin-right: 10px;
+}
+article .nino-articleMeta .nino-icon {
+	font-size: 17px;
+	margin-right: 5px;
+	position: relative;
+	top: 2px;
+}
+/* =============== LEFT SIDE =============== */
+#nino-leftSide a {
+	color: #6dffec;
+}
+#nino-leftSide .nino-listWithIcon > li {
+	margin-bottom: 10px;
+}
+#nino-leftSide .nino-listWithIcon .nino-icon {
+	background: #fff;
+	color: #263238;
+	padding: 5px;
+	border-radius: 50%;
+	margin: 0 15px 0 4px;
+	font-size: 14px;
+}
+#nino-leftSide section {
+	margin-bottom: 35px;
+	padding: 0 30px;
+}
+#nino-leftSide .nino-mySkill .progress {
+	margin: 0;
+	height: 8px;
+}
+#nino-leftSide .nino-mySkill .progress-bar {
+	background-color: #263238;
+}
+/* =============== MAIN PAGE =============== */
+#nino-mainContent .nino-languages {
+	text-align: center;
+	margin-top: 30px;
+}
+#nino-mainContent .nino-languages .languageName {
+	margin: 15px 0 5px;
+}
+#nino-mainContent .nino-languages .stars {
+	margin-bottom: 20px;
+}
+#nino-mainContent .nino-languages .stars .nino-icon {
+	font-size: 20px;
+}
+/* =============== GO TO TOP =============== */
+#nino-scrollToTop {
+	width: 50px; 
+	height: 50px;
+	text-align: center;
+	text-decoration: none;
+	position: fixed;
+	bottom: 10px;
+	right: 10px;
+	text-indent: -99999em;
+	display: none;
+	cursor: pointer;
+	z-index: 2;
+	background: #37474f  url(../images/go-to-top.png) center center no-repeat;
+}
+#nino-scrollToTop:hover {
+	text-decoration: none;
+	background-color: #333;
+}
+/* ============================================================ RESPONSIVE ============================================================ */
+@media (max-width: 1200px) {
+	
+}
+@media (max-width: 991px) {
+
+	/* =============== LAYOUT =============== */
+	#nino-leftSide {
+		width: 30%;
+	}
+	#nino-rightSide {
+		width: 70%;
+	}
+	/* =============== LEFT SIDE =============== */
+	/*header,
+	#nino-leftSide section {
+		margin: 0;
+		border: 1px solid rgba(255, 255, 255, 0.25);
+		border-width: 0 1px 1px 0;
+	}
+	#nino-leftSide section {
+		padding: 35px 30px;
+	}*/
+
+	body {
+	color: #263238 !important;
+	font-size: 13px !important;
+	font-weight: 300 !important;
+	position: relative !important;
+	font-family: 'Roboto Slab', serif !important;
+}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section,main { 
+    display: block !important;
+}
+hr {
+	border-left: none !important;
+	border-right: none !important;
+    border-top: 1px solid #E5E5E5 !important;
+    color: #F4F4F4 !important;
+    margin: 20px 0 !important;
+    padding: 0 !important;
+}
+/* =============== DEFAULT HTML - LINK STYLES =============== */
+a {
+	text-decoration: none !important;
+	outline: none !important;
+	color: #263238 !important;
+	-webkit-transition: all .3s ease-in-out !important;
+	   -moz-transition: all .3s ease-in-out !important;
+		 -o-transition: all .3s ease-in-out !important;
+		-ms-transition: all .3s ease-in-out !important;
+			transition: all .3s ease-in-out !important;
+}
+a:hover {
+	color: #666 !important;
+	text-decoration: none !important;
+}
+a:active {
+	text-decoration: none !important;
+}
+a:focus {
+	outline: none !important;
+}
+a img {
+	border: none !important;
+}
+a[class*="glyphicon-"] {
+	text-decoration: none !important;
+}
+/* =============== DEFAULT HTML - HEADING STYLES =============== */
+h1, h2, h3, h4, h5, h6 {
+	margin: 5px 0 10px !important;
+	text-transform: uppercase !important;
+	font-weight: 400 !important;
+	line-height: 1.4 !important;
+}
+/* =============== DEFAULT HTML - LIST STYLES =============== */
+ul, ul li,
+ol, ol li,
+p, form, input {
+	margin: 0 !important;
+	padding: 0 !important;
+}
+p {
+	margin-bottom: 10px !important;
+}
+ul, ul li {
+	/* list-style: none !important; */
+}
+/* =============== DEFAULT HTML - IMAGES STYLES =============== */
+img {
+	border: none;
+	max-width: 100% !important;
+}
+img.image-left {
+	float: left !important;
+	margin-right: 5px !important;
+}
+img.img-full-width {
+	width: 100% !important;
+}
+/* =============== PREDEFINED CONTENT ALIGN =============== */
+.margin-left {
+	margin-left: 1em !important;
+	margin-right: 0;
+}
+.margin-right {
+	margin-left: 0;
+	margin-right: 1em !important;
+}
+/* ============================== LAYOUT ============================== */
+/* =============== LAYOUT - GENERAL LAYOUT =============== */
+[layout="row"] {
+	display: -webkit-flex !important;
+	display: -moz-flex !important;
+	display: -ms-flexbox !important;
+	display: flex !important;
+}
+.fsr {
+	-webkit-flex-shrink: 0 !important;
+	flex-shrink: 0 !important;
+}
+.fg {
+	-webkit-flex-grow: 1 !important;
+	flex-grow: 1 !important;
+	color: white !important;
+}
+.fw {
+	flex-wrap: wrap !important;
+}
+.verticalCenter {
+	-ms-flex-align: center !important;
+	-webkit-align-items: center !important;
+	-webkit-box-align: center !important;
+	align-items: center !important;
+}
+/* =============== NAVIGATION =============== */
+#mainMenu {
+	margin: 15px 0 !important;
+}
+#mainMenu ul {
+	text-align: right !important;
+}
+#mainMenu ul li {
+	display: inline-block !important;
+}
+#mainMenu ul li a {
+	display: block !important;
+	padding: 10px !important;
+	text-transform: uppercase !important;
+	font-weight: 500 !important;
+}
+#mainMenu ul li .nino-icon {
+	font-size: 18px !important;
+	position: relative !important;
+	top: 2px !important;
+	margin-right: 5px !important;
+}
+/* =============== LAYOUT - HEADER AREA =============== */
+header {
+	text-align: center !important;
+	padding: 35px 20px !important;
+	margin-bottom: 35px !important;
+	background: #010220 !important;
+}
+header .avatar {
+	width: 150px !important;
+	border-radius: 50% !important;
+	background: #37474f !important;
+	padding: 4px !important;
+	margin-bottom: 10px !important;
+}
+header .name {
+	color: white !important;
+	font-size: 20px !important;
+	margin-bottom: 8px !important;
+}
+header .regency {
+	color: white !important;
+	font-size: 14px !important;
+	text-transform: capitalize !important;
+}
+/* =============== LAYOUT - CONTENT AREA =============== */
+#nino-cvWrap {
+	max-width: 960px !important;
+	margin: 0 auto !important;
+	background: #fff !important;
+}
+#nino-leftSide {
+	width: 310px !important;
+	background: #644709 !important;
+	color: #fdfdfe !important;
+}
+#nino-rightSide {
+	border: 1px solid #d2d2d2 !important;
+	width: calc(100% - 310px) !important;
+}
+main {
+	padding: 30px 40px !important;
+}
+section {
+	margin-bottom: 50px !important;
+}
+section:last-child {
+	margin-bottom: 0 !important;
+}
+section .nino-sectionHeading {
+	font-size: 16px !important;
+	font-weight: 700 !important;
+}
+section .nino-sectionHeading .nino-icon {
+	background: #644709 !important;
+	padding: 8px !important;
+	border-radius: 50% !important;
+	margin-right: 10px !important;
+	font-size: 20px !important;
+	color: #ffffff !important;
+}
+section .nino-sectionHeading1 {
+	color: white !important;
+	font-size: 16px !important;
+	font-weight: 700 !important;
+}
+section .nino-sectionHeading1 .nino-icon1 {
+	/*color: white !important;*/
+	background: white !important;
+	padding: 8px !important;
+	border-radius: 50% !important;
+	margin-right: 10px !important;
+	font-size: 20px !important;
+	color: #fff !important;
+}
+section .nino-sectionContent > .inner {
+	margin-left: 55px !important;
+}
+#nino-mainContent section .nino-sectionHeading {
+	font-size: 24px !important;
+}
+#nino-mainContent section .nino-sectionHeading .nino-icon {
+	font-size: 26px !important;
+}
+article {
+	margin: 30px 0 !important;
+}
+article:last-child {
+	margin-bottom: 0 !important;
+}
+article .nino-articleThumb {
+	margin-bottom: 15px !important;
+	text-align: center !important;
+}
+article .nino-articleTitle {
+	font-size: 20px !important;
+	margin: 0 0 5px !important;
+}
+article .nino-articleMeta {
+	color: #90a4ae !important;
+	margin-bottom: 10px !important;
+	font-weight: 400 !important;
+}
+article .nino-articleMeta span {
+	display: inline-block !important;
+	margin-right: 10px !important;
+}
+article .nino-articleMeta .nino-icon {
+	font-size: 17px !important;
+	margin-right: 5px !important;
+	position: relative !important;
+	top: 2px !important;
+}
+/* =============== LEFT SIDE =============== */
+#nino-leftSide a {
+	color: #6dffec !important;
+}
+#nino-leftSide .nino-listWithIcon > li {
+	margin-bottom: 10px !important;
+}
+#nino-leftSide .nino-listWithIcon .nino-icon {
+	background: #fff !important;
+	color: #263238 !important;
+	padding: 5px !important;
+	border-radius: 50% !important;
+	margin: 0 15px 0 4px !important;
+	font-size: 14px !important;
+}
+#nino-leftSide section {
+	margin-bottom: 35px !important;
+	padding: 0 30px !important;
+}
+#nino-leftSide .nino-mySkill .progress {
+	margin: 0 !important;
+	height: 8px !important;
+}
+#nino-leftSide .nino-mySkill .progress-bar {
+	background-color: #263238 !important;
+}
+/* =============== MAIN PAGE =============== */
+#nino-mainContent .nino-languages {
+	text-align: center !important;
+	margin-top: 30px !important;
+}
+#nino-mainContent .nino-languages .languageName {
+	margin: 15px 0 5px !important;
+}
+#nino-mainContent .nino-languages .stars {
+	margin-bottom: 20px !important;
+}
+#nino-mainContent .nino-languages .stars .nino-icon {
+	font-size: 20px !important;
+}
+}
+@media (max-width: 767px) {
+	
+	/* =============== LAYOUT =============== */
+	main {
+	    padding: 30px 20px;
+	}
+	/* =============== LEFT SIDE =============== */
+	header,
+	#nino-leftSide section {
+		margin-bottom: 35px;
+		border: none;
+	}
+	#nino-leftSide section {
+	    padding: 0 30px;
+	}
+	#nino-leftSide .nino-mySkill {
+		border: none;
+	}
+}
+@media (max-width: 640px) {
+	
+}
+@media (max-width: 480px) {
+	
+}
+
+

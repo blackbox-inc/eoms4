@@ -1,0 +1,105 @@
+
+.barcode_card{
+    font-family: 'Quicksand', sans-serif;
+    position: fixed; /* Stay in place */
+    z-index: 100; /* Sit on top */
+    left: 50%;
+    top: 50%;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(10,10,10); /* Fallback color */
+    /* background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    color: white;
+    transform: translate(-50%, -50%) !important;
+    font-family: 'Quicksand', sans-serif;
+
+
+    -webkit-animation: roll-in-left 0.5s ease-out both;
+    animation: roll-in-left 0.5s ease-out both;
+
+    
+  } 
+  
+  .barcode-content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)!important;
+  
+  }
+  
+  .barcode-content input{
+   
+    font-size: 3em;
+    width: 100%;
+    background-color: rgb(20,20,20); /* Fallback color */
+    border: 1px solid gold;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  
+  .barcode-content input:focus{
+    font-family: 'Quicksand', sans-serif;
+    border: 1px solid gold;
+    background-color: rgb(20,20,20); /* Fallback color */
+    color: white;
+   
+  }
+
+  .label_barcode{
+      font-size: 2em;
+      text-transform: uppercase;
+  
+  }
+
+  /* @keyframes showee {
+    from {left: -50%;;}
+    to {left: 50%;}
+  } */
+
+  @-webkit-keyframes roll-in-left {
+    0% {
+      -webkit-transform: translateX(-800px) rotate(-540deg);
+              transform: translateX(-800px) rotate(-540deg);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateX(0) rotate(0deg);
+              transform: translateX(0) rotate(0deg);
+      opacity: 1;
+    }
+  }
+  @keyframes roll-in-left {
+    0% {
+      -webkit-transform: translateX(-800px) rotate(-540deg);
+              transform: translateX(-800px) rotate(-540deg);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateX(0) rotate(0deg);
+              transform: translateX(0) rotate(0deg);
+      opacity: 1;
+    }
+  }
+
+
+
+  .box-flex{
+    display: flex;
+  
+  }
+
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto ;
+    grid-gap: 1em;
+    padding: 10px;
+  }
+
+  .container-wrap{
+    width: 50%;
+    margin:0 auto;
+  }
+

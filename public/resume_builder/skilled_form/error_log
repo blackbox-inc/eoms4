@@ -1,0 +1,56 @@
+[21-Jun-2023 02:51:36 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'eomsincc'@'localhost' (using password: YES) in /home/eomsincc/public_html_temporary_down/v2/resume_builder/skilled_form/connect.php on line 2
+[21-Jun-2023 02:51:36 UTC] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/eomsincc/public_html_temporary_down/v2/resume_builder/skilled_form/generator.php:35
+Stack trace:
+#0 /home/eomsincc/public_html_temporary_down/v2/resume_builder/skilled_form/generator.php(35): mysqli->query()
+#1 /home/eomsincc/public_html_temporary_down/v2/resume_builder/skilled_form/generator.php(75): UserAccount()
+#2 {main}
+  thrown in /home/eomsincc/public_html_temporary_down/v2/resume_builder/skilled_form/generator.php on line 35
+[21-Jun-2023 02:51:43 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'eomsincc'@'localhost' (using password: YES) in /home/eomsincc/public_html_temporary_down/v2/resume_builder/skilled_form/connect.php on line 2
+[21-Jun-2023 02:51:43 UTC] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/eomsincc/public_html_temporary_down/v2/resume_builder/skilled_form/generator.php:35
+Stack trace:
+#0 /home/eomsincc/public_html_temporary_down/v2/resume_builder/skilled_form/generator.php(35): mysqli->query()
+#1 /home/eomsincc/public_html_temporary_down/v2/resume_builder/skilled_form/generator.php(75): UserAccount()
+#2 {main}
+  thrown in /home/eomsincc/public_html_temporary_down/v2/resume_builder/skilled_form/generator.php on line 35
+[21-Jun-2023 02:51:44 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'eomsincc'@'localhost' (using password: YES) in /home/eomsincc/public_html_temporary_down/v2/resume_builder/skilled_form/connect.php on line 2
+[21-Jun-2023 02:51:44 UTC] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/eomsincc/public_html_temporary_down/v2/resume_builder/skilled_form/generator.php:35
+Stack trace:
+#0 /home/eomsincc/public_html_temporary_down/v2/resume_builder/skilled_form/generator.php(35): mysqli->query()
+#1 /home/eomsincc/public_html_temporary_down/v2/resume_builder/skilled_form/generator.php(75): UserAccount()
+#2 {main}
+  thrown in /home/eomsincc/public_html_temporary_down/v2/resume_builder/skilled_form/generator.php on line 35
+[21-Jun-2023 02:51:45 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'eomsincc'@'localhost' (using password: YES) in /home/eomsincc/public_html_temporary_down/v2/resume_builder/skilled_form/connect.php on line 2
+[21-Jun-2023 02:51:45 UTC] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/eomsincc/public_html_temporary_down/v2/resume_builder/skilled_form/generator.php:35
+Stack trace:
+#0 /home/eomsincc/public_html_temporary_down/v2/resume_builder/skilled_form/generator.php(35): mysqli->query()
+#1 /home/eomsincc/public_html_temporary_down/v2/resume_builder/skilled_form/generator.php(75): UserAccount()
+#2 {main}
+  thrown in /home/eomsincc/public_html_temporary_down/v2/resume_builder/skilled_form/generator.php on line 35
+[21-Jun-2023 02:51:45 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'eomsincc'@'localhost' (using password: YES) in /home/eomsincc/public_html_temporary_down/v2/resume_builder/skilled_form/connect.php on line 2
+[21-Jun-2023 02:51:45 UTC] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/eomsincc/public_html_temporary_down/v2/resume_builder/skilled_form/generator.php:35
+Stack trace:
+#0 /home/eomsincc/public_html_temporary_down/v2/resume_builder/skilled_form/generator.php(35): mysqli->query()
+#1 /home/eomsincc/public_html_temporary_down/v2/resume_builder/skilled_form/generator.php(75): UserAccount()
+#2 {main}
+  thrown in /home/eomsincc/public_html_temporary_down/v2/resume_builder/skilled_form/generator.php on line 35
+[21-Jun-2023 02:51:46 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'eomsincc'@'localhost' (using password: YES) in /home/eomsincc/public_html_temporary_down/v2/resume_builder/skilled_form/connect.php on line 2
+[21-Jun-2023 02:51:46 UTC] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/eomsincc/public_html_temporary_down/v2/resume_builder/skilled_form/generator.php:35
+Stack trace:
+#0 /home/eomsincc/public_html_temporary_down/v2/resume_builder/skilled_form/generator.php(35): mysqli->query()
+#1 /home/eomsincc/public_html_temporary_down/v2/resume_builder/skilled_form/generator.php(75): UserAccount()
+#2 {main}
+  thrown in /home/eomsincc/public_html_temporary_down/v2/resume_builder/skilled_form/generator.php on line 35
+[21-Jun-2023 02:51:46 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'eomsincc'@'localhost' (using password: YES) in /home/eomsincc/public_html_temporary_down/v2/resume_builder/skilled_form/connect.php on line 2
+[21-Jun-2023 02:51:46 UTC] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/eomsincc/public_html_temporary_down/v2/resume_builder/skilled_form/generator.php:35
+Stack trace:
+#0 /home/eomsincc/public_html_temporary_down/v2/resume_builder/skilled_form/generator.php(35): mysqli->query()
+#1 /home/eomsincc/public_html_temporary_down/v2/resume_builder/skilled_form/generator.php(75): UserAccount()
+#2 {main}
+  thrown in /home/eomsincc/public_html_temporary_down/v2/resume_builder/skilled_form/generator.php on line 35
+[21-Jun-2023 02:51:47 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'eomsincc'@'localhost' (using password: YES) in /home/eomsincc/public_html_temporary_down/v2/resume_builder/skilled_form/connect.php on line 2
+[21-Jun-2023 02:51:47 UTC] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/eomsincc/public_html_temporary_down/v2/resume_builder/skilled_form/generator.php:35
+Stack trace:
+#0 /home/eomsincc/public_html_temporary_down/v2/resume_builder/skilled_form/generator.php(35): mysqli->query()
+#1 /home/eomsincc/public_html_temporary_down/v2/resume_builder/skilled_form/generator.php(75): UserAccount()
+#2 {main}
+  thrown in /home/eomsincc/public_html_temporary_down/v2/resume_builder/skilled_form/generator.php on line 35

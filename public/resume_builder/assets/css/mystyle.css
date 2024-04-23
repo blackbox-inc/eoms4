@@ -1,0 +1,73 @@
+*{
+    font-family: 'Abel', sans-serif;
+}
+
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:rgb(136, 117, 10);
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100;
+}
+
+.my-float{
+    margin-top:17px;
+    font-size: 25px;
+}
+
+
+.card-header{
+    background-color:rgb(136, 117, 10);
+    color: white;
+    font-family: 'Fjalla One', sans-serif;
+    text-transform: uppercase;
+}
+
+.card{
+    -webkit-box-shadow: 7px 7px 7px -6px rgba(0,0,0,0.75);
+-moz-box-shadow: 7px 7px 7px -6px rgba(0,0,0,0.75);
+box-shadow: 7px 7px 7px -6px rgba(0,0,0,0.75);
+}
+
+label{
+   
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.dIcon{
+    font-size: 25px;
+}
+
+.expTitle{
+   
+    text-transform: uppercase;
+    text-align:center;
+    cursor: pointer;
+    margin: 0;
+    margin-bottom: 5px;
+    padding: 5px;
+    border-radius: 5px;
+    background: rgb(235, 235, 235);
+}
+
+.expTitle:hover{
+    background: #88750A;
+    color:white;
+    text-transform: uppercase;
+    text-align:center;
+   
+}
+
+.expCompany, .expDate, .expjDescription{
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 700;;
+}
+
